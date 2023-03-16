@@ -11,7 +11,7 @@ export const FlipCard = ({
   };
   return (
     <div
-      className="group h-52 w-52 cursor-pointer hover:scale-110 transition-all [perspective:1000px]"
+      className="group h-96 w-96 md:w-56 md:h-56 cursor-pointer hover:scale-110 transition-all [perspective:1000px]"
       onClick={() => selectedCard(id)}
     >
       <div

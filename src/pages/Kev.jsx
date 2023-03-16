@@ -51,7 +51,7 @@ export const Kev = () => {
     <div className="bg-white dark:bg-gray-800 transition-all duration-700 font-montserrat">
       <Header />
       <section className="flex w-full justify-center py-10">
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-8">
+        <div className="flex flex-wrap justify-center p-5 max-w-screen-xl gap-8">
           {loading ? (
             <ComponentsMultiplier itemsQuant={20}>
               <CardSkeleton />
