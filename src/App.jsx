@@ -1,7 +1,7 @@
-import { Kev } from "./pages/Kev";
+import { RickAndMorty } from "./pages/RickAndMorty";
 
 function App() {
-  return <Kev />;
+  return <RickAndMorty />;
 }
 
 export default App;

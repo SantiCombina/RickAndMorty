@@ -10,7 +10,7 @@ export const ArrowToStartPage = ({ className }) => {
       </span>
       <a
         href="#title"
-        className="bg-blue-500 dark:bg-gray-200 text-white dark:text-black rounded-full h-10 w-10 text-3xl flex justify-center items-center"
+        className="bg-blue-500 dark:bg-gray-200 text-white dark:text-black transition-all duration-700 rounded-full h-10 w-10 text-3xl flex justify-center items-center"
       >
         <AiOutlineArrowUp />
       </a>

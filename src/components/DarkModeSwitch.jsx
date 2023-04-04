@@ -37,9 +37,9 @@ export const DarkModeSwitch = () => {
       onClick={switchMode}
     >
       {darkMode ? (
-        <span className="h-6 w-6 rounded-full p-1/2 bg-gradient-to-b from-[#444] to-[#222] shadow-button-dark translate-x-0 transition-all duration-700"></span>
+        <span className="h-6 w-6 rounded-full p-1/2 bg-gradient-to-b from-[#666] to-[#333] shadow-button-dark translate-x-0 transition-all duration-700"></span>
       ) : (
-        <span className="h-6 w-6 rounded-full p-1/2 bg-gradient-to-b from-[#eaeaea] to-[#f9f9f9] shadow-button-light translate-x-6 transition-all duration-700"></span>
+        <span className="h-6 w-6 rounded-full p-1/2 bg-gradient-to-b from-[#ddd] to-[#eee] shadow-button-light translate-x-6 transition-all duration-700"></span>
       )}
     </div>
   );
