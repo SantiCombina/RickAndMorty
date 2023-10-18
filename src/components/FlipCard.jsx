@@ -18,7 +18,7 @@ export const FlipCard = ({ name, image, id, toggleCard, setToggleCard }) => {
           <img
             src={image}
             alt="Character Image"
-            className="h-full w-full rounded-xl object-cover shadow-md"
+            className="h-full w-full rounded-xl object-cover shadow-md select-none"
           />
         </div>
         <div className="bg-gray-200 dark:bg-gray-900 text-black dark:text-white transition-all duration-700 absolute inset-0 h-full w-full rounded-xl px-12 text-center [transform:rotateY(-180deg)] [backface-visibility:hidden]">
